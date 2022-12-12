@@ -1,9 +1,7 @@
 import requests
-import json 
 from utils import get_reddit_authentification
 
 def init_reddit():
-
         authUser = get_reddit_authentification()
 
         auth = requests.auth.HTTPBasicAuth(authUser['CLIENT_ID'], authUser['SECRET_KEY'])

@@ -1,0 +1,22 @@
+{
+    "authentification":{
+        "CLIENT_ID": "", 
+        "SECRET_KEY": "",
+        "USERNAME": "",
+        "PASSWORD": ""
+    },
+    "telegram":{
+        "api_id": "",
+        "api_hash": "",
+        "phone":"",
+        "username":""
+    },
+    "telegram_channel":[
+        "",
+        ""
+    ],
+    "subreddit":[
+        "", 
+        ""
+    ]
+}

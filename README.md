@@ -2,10 +2,6 @@
 
 Retrieve most famous memes from reddit channel, using the reddit API.
 
-## Run the program 
-
-```python3 main.py```
-
 ## Installation
 
 ### Install librairie
@@ -45,4 +41,19 @@ Add subreddit URL to the ressources/subreddit.json file :
     "https://oauth.reddit.com/<SUBREDDIT>/hot"
 ]
 
+```
+
+## Run the program 
+You will maybe need to be root to launch the script.
+
+```sudo python3 main.py```
+
+## /!\ First run
+
+If it is the first time you are launching the script, for security controls by telegram, you will need to input your phone number and the telegram code you received.
+
+```
+Please enter your phone (or bot token): +33750505050
+Please enter the code you received: 12345
+Signed in successfully as Username123
 ```

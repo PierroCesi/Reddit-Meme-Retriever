@@ -3,7 +3,7 @@ from utils import *
 import requests
 import urllib.request
 import random
-from utils import get_telegram_info, MY_CHANNEL
+from utils import get_telegram_info
 from telethon import TelegramClient
 
 init()
@@ -28,7 +28,7 @@ client = TelegramClient(telegram_infos["username"], telegram_infos["api_id"], te
 async def post_memes():
     for meme in memes:
         try:
-            await client.send_file(MY_CHANNEL, meme)
+            await client.send_file(telegram_infos["my_channel"], meme)
         except:
             None
 

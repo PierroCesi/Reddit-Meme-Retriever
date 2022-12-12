@@ -5,18 +5,8 @@
         "USERNAME": "",
         "PASSWORD": ""
     },
-    "telegram":{
-        "api_id": "",
-        "api_hash": "",
-        "phone":"",
-        "username":""
-    },
-    "telegram_channel":[
-        "",
-        ""
-    ],
     "subreddit":[
-        "", 
-        ""
+        "https://oauth.reddit.com/r/shitposting/hot", 
+        "https://oauth.reddit.com/r/memes/hot"
     ]
 }
